@@ -48,14 +48,9 @@ int sum (int a , int b =1) {  //here b = 1 is the default value of b.
 
 but the 1st parameter cannot set as the default, only the second parameter can have a default value. <br> <br> <br> <br>
 
-Function Call in Memory,  <i> Stack Memory  <br> 
-
-<br>|           |<br>
-<br>|           |<br>
-<br>|___________|<br>
-<br>|           |<br>
-<br>|___________|<br>
-<br>|           |<br>
-<br>|___________|<br>
-<br>|   STACK   |<br>
-<br>|___________|<br>
+Function Call in Memory,  <i> <u> Stack Memory  <br> 
+The main  function ( )  aqquires the 1st block of memory or Stack Frame in any program. <br>
+All the variables, cout statements takes place or get stored in that one main () { 1st Stack Fram}. <br><br>
+The Other functions such as int sum ( int a ,  int b ){
+    return a+b;  // aqquires the 2nd block of memory or Stack Frame. <br>
+}
