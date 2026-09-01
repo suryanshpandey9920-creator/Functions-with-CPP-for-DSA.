@@ -46,4 +46,16 @@ int sum (int a , int b =1) {  //here b = 1 is the default value of b.
 }
 <br> <br>
 
-but the 1st parameter cannot set as the default, only the second parameter can have a default value. <br> <br>
+but the 1st parameter cannot set as the default, only the second parameter can have a default value. <br> <br> <br> <br>
+
+Function Call in Memory,  <i> Stack Memory  <br> 
+
+<br>|           |<br>
+<br>|           |<br>
+<br>|___________|<br>
+<br>|           |<br>
+<br>|___________|<br>
+<br>|           |<br>
+<br>|___________|<br>
+<br>|   STACK   |<br>
+<br>|___________|<br>
