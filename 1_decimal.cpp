@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-void binaryy( int binary) {
+void binaryyTodecimal( int binary) {
     int n = binary;
     
     // Coverting the binary to decimal
@@ -16,7 +16,7 @@ void binaryy( int binary) {
         dec = (digit * pow ) + dec ;
         // This will multiply the digit with power of 2 and add it with the decimal value 
         pow *= 2;
-        // This will increase the power by 2 in every iteration
+        // This will multiply the power by 2 in every iteration
         n = n / 10;
     } 
     cout << "The decimal form of " << binary << " is " << dec << endl;
@@ -28,6 +28,6 @@ int main() {
     cout << "enter any binary number : ";
     cin >> n;
 
-    binaryy(n);
+    binaryyTodecimal(n);
     return 0;
 }
